@@ -1,0 +1,13 @@
+[package]
+name = "tongfang-fan-control"
+version = "0.1.0"
+authors = ["Lucjan Suski <lucjansuski@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.19.0"
+libc = "0.2"
+pid = "2.1.0"
+systemstat = "0.1.5"
